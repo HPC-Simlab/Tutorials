@@ -15,74 +15,71 @@
 * [Atomistic simulation](#atomistic-simulation)
 * [Visualisation](#visualisation)
 * [Performance analysis and optimisation](#performance-analysis-and-optimisation)
-
 #### `General information`
-
-    * Install Module Using EasyBuild
-	* Basic Slurm commands
-	* Collection of similar jobs Job Array
-	* Advanced slurm-commands
-	* Git tutorial
-
+* [Install Module Using EasyBuild](https://github.com/HPC-Simlab/Tutorials/A_General_information/Install_Module_Using_EasyBuild.md)
+* [Basic Slurm commands](https://github.com/HPC-Simlab/Tutorials/A_General_information/Basic_Slurm_commands.md)
+* [Collection of similar jobs Job Array](https://github.com/HPC-Simlab/Tutorials/A_General_information/Collection_of_similar_jobs_Job_Array.md)
+* [Advanced slurm-commands](https://github.com/HPC-Simlab/Tutorials/A_General_information/Advanced_slurm-commands.md)
+* [Git tutorial](https://github.com/HPC-Simlab/Tutorials/A_General_information/Git_tutorial.md)
 #### `Computing environment`
-	* Access and shells
-	* Passwords management
-	* ssh recommandation
-	* Containers Usage of Singularity
-	* The module command
+* [Access and shells](https://github.com/HPC-Simlab/Tutorials/B_Computing_environment/Access_and_shells.md)
+* [Passwords management](https://github.com/HPC-Simlab/Tutorials/B_Computing_environment/Passwords_management.md)
+* [ssh recommandation](https://github.com/HPC-Simlab/Tutorials/B_Computing_environment/ssh_recommandation.md)
+* [Containers Usage of Singularity](https://github.com/HPC-Simlab/Tutorials/B_Computing_environment/Containers_Usage_of_Singularity.md)
+* [The module command](https://github.com/HPC-Simlab/Tutorials/B_Computing_environment/The_module_command.md)
 #### `CPU compilation`
-	* Compilation Fortran C using GNU Compiler
-	* Calling Fortran functions from C
-	* OPENMP Parallel Code
-	* Calling C functions from Fortran
-	* Compilation Fortran C using INTEL Compiler.md
-	* CMake usage
-	* MPI parallel code
-	* HYBRID parallel code
+* [Compilation Fortran C using GNU Compiler](https://github.com/HPC-Simlab/Tutorials/C_CPU_compilation/Compilation_Fortran_C_using_GNU_Compiler.md)
+* [Calling Fortran functions from C](https://github.com/HPC-Simlab/Tutorials/C_CPU_compilation/Calling_Fortran_functions_from_C.md)
+* [OPENMP Parallel Code](https://github.com/HPC-Simlab/Tutorials/C_CPU_compilation/OPENMP_Parallel_Code.md)
+* [Calling C functions from Fortran](https://github.com/HPC-Simlab/Tutorials/C_CPU_compilation/Calling_C_functions_from_Fortran.md)
+* [Compilation Fortran C using INTEL Compiler.md](https://github.com/HPC-Simlab/Tutorials/C_CPU_compilation/Compilation_Fortran_C_using_INTEL_Compiler.md.md)
+* [CMake usage](https://github.com/HPC-Simlab/Tutorials/C_CPU_compilation/CMake_usage.md)
+* [MPI parallel code](https://github.com/HPC-Simlab/Tutorials/C_CPU_compilation/MPI_parallel_code.md)
+* [HYBRID parallel code](https://github.com/HPC-Simlab/Tutorials/C_CPU_compilation/HYBRID_parallel_code.md)
 #### `Commands of a CPU code`
-	* OpenMP parallel code in batch
-	* MPI parallel code in batch
-	* Sequential job in batch
-	* Hybrid MPI-OpenMP code in batch
+* [OpenMP parallel code in batch](https://github.com/HPC-Simlab/Tutorials/D_Commands_of_a_CPU_code/OpenMP_parallel_code_in_batch.md)
+* [MPI parallel code in batch](https://github.com/HPC-Simlab/Tutorials/D_Commands_of_a_CPU_code/MPI_parallel_code_in_batch.md)
+* [Sequential job in batch](https://github.com/HPC-Simlab/Tutorials/D_Commands_of_a_CPU_code/Sequential_job_in_batch.md)
+* [Hybrid MPI-OpenMP code in batch](https://github.com/HPC-Simlab/Tutorials/D_Commands_of_a_CPU_code/Hybrid_MPI-OpenMP_code_in batch.md)
 #### `GPU Compilation`
-	* Python example Using CUDA
-	* Compilation C++ using CUDA Compiler
+* [Python example Using CUDA](https://github.com/HPC-Simlab/Tutorials/E_GPU_Compilation/Python_example_Using_CUDA.md)
+* [Compilation C++ using CUDA Compiler](https://github.com/HPC-Simlab/Tutorials/E_GPU_Compilation/Compilation_C++_using_CUDA_Compiler.md)
 #### `Commands of a GPU code`
-	* Single-GPU code in a batch job
+* [Single-GPU code in a batch job](https://github.com/HPC-Simlab/Tutorials/F_Commands_of_a_GPU_code/Single-GPU_code_in_a_batch_job.md)
 #### `Software libraries`
-	* R
-	* Python and Pip
-	* Matlab
-	* Jupyter notebook
-	* Anaconda
+* [R](https://github.com/HPC-Simlab/Tutorials/G_Software_libraries/R.md)
+* [Python and Pip](https://github.com/HPC-Simlab/Tutorials/G_Software_libraries/Python_and_Pip.md)
+* [Matlab](https://github.com/HPC-Simlab/Tutorials/G_Software_libraries/Matlab.md)
+* [Jupyter notebook](https://github.com/HPC-Simlab/Tutorials/G_Software_libraries/Jupyter_notebook.md)
+* [Anaconda](https://github.com/HPC-Simlab/Tutorials/G_Software_libraries/Anaconda.md)
 #### `CPU Serial Scientific Libraries`
-	* METIS
-	* Armadillo
-	* LAPACK
-	* FFTW
-	* GSL
+* [METIS](https://github.com/HPC-Simlab/Tutorials/H_CPU_Serial_Scientific_Libraries/METIS.md)
+* [Armadillo](https://github.com/HPC-Simlab/Tutorials/H_CPU_Serial_Scientific_Libraries/Armadillo.md)
+* [LAPACK](https://github.com/HPC-Simlab/Tutorials/H_CPU_Serial_Scientific_Libraries/LAPACK.md)
+* [FFTW](https://github.com/HPC-Simlab/Tutorials/H_CPU_Serial_Scientific_Libraries/FFTW.md)
+* [GSL](https://github.com/HPC-Simlab/Tutorials/H_CPU_Serial_Scientific_Libraries/GSL.md)
 #### `CPU Parallel Scientific Libraries`
-	* Hypre
-	* SCOTCH
-	* MUMPS
-	* HDF5
-	* OpenBLAS
-	* ScaLAPACK
-	* ARPACK AND PARPACK
-	* ParMETIS
-	* PETSc
+* [Hypre](https://github.com/HPC-Simlab/Tutorials/I_CPU_Parallel_Scientific_Libraries/Hypre.md)
+* [SCOTCH](https://github.com/HPC-Simlab/Tutorials/I_CPU_Parallel_Scientific_Libraries/SCOTCH.md)
+* [MUMPS](https://github.com/HPC-Simlab/Tutorials/I_CPU_Parallel_Scientific_Libraries/MUMPS.md)
+* [HDF5](https://github.com/HPC-Simlab/Tutorials/I_CPU_Parallel_Scientific_Libraries/HDF5.md)
+* [OpenBLAS](https://github.com/HPC-Simlab/Tutorials/I_CPU_Parallel_Scientific_Libraries/OpenBLAS.md)
+* [ScaLAPACK](https://github.com/HPC-Simlab/Tutorials/I_CPU_Parallel_Scientific_Libraries/ScaLAPACK.md)
+* [ARPACK AND PARPACK](https://github.com/HPC-Simlab/Tutorials/I_CPU_Parallel_Scientific_Libraries/ARPACK_AND_PARPACK.md)
+* [ParMETIS](https://github.com/HPC-Simlab/Tutorials/I_CPU_Parallel_Scientific_Libraries/ParMETIS.md)
+* [PETSc](https://github.com/HPC-Simlab/Tutorials/I_CPU_Parallel_Scientific_Libraries/PETSc.md)
 #### `Simulation Softwares`
-	* liggghts
-	* OpenModelica
-	* Ansys Fluent
-	* OpenFOAM
-	* freefem
+* [liggghts](https://github.com/HPC-Simlab/Tutorials/J_Simulation_Softwares/liggghts.md)
+* [OpenModelica](https://github.com/HPC-Simlab/Tutorials/J_Simulation_Softwares/OpenModelica.md)
+* [Ansys Fluent](https://github.com/HPC-Simlab/Tutorials/J_Simulation_Softwares/Ansys_Fluent.md)
+* [OpenFOAM](https://github.com/HPC-Simlab/Tutorials/J_Simulation_Softwares/OpenFOAM.md)
+* [freefem](https://github.com/HPC-Simlab/Tutorials/J_Simulation_Softwares/freefem.md)
 #### `Atomistic simulation`
-	* QuantumESPRESSO
-	* ABINIT
+* [QuantumESPRESSO](https://github.com/HPC-Simlab/Tutorials/K_Atomistic_simulation/QuantumESPRESSO.md)
+* [ABINIT](https://github.com/HPC-Simlab/Tutorials/K_Atomistic_simulation/ABINIT.md)
 #### `Visualisation`
-	* ParaView
-	* VTK
+* [ParaView](https://github.com/HPC-Simlab/Tutorials/L_Visualisation/ParaView.md)
+* [VTK](https://github.com/HPC-Simlab/Tutorials/L_Visualisation/VTK.md)
 #### `Performance analysis and optimisation`
-	* VTune
-	* Valgrind
+* [VTune](https://github.com/HPC-Simlab/Tutorials/M_Performance_analysis_and_optimisation/VTune.md)
+* [Valgrind](https://github.com/HPC-Simlab/Tutorials/M_Performance_analysis_and_optimisation/Valgrind.md)
