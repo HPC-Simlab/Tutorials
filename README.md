@@ -46,7 +46,8 @@
 * [Sequential job in batch](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/D_Commands_of_a_CPU_code/Sequential_job_in_batch.md)
 * [OpenMP parallel code in batch](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/D_Commands_of_a_CPU_code/OpenMP_parallel_code_in_batch.md)
 #### `GPU Compilation`
-* [Python example Using CUDA](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/E_GPU_Compilation/Python_example_Using_CUDA.md)
+* [Python example Using Cupy](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/E_GPU_Compilation/Python_example_Using_Cupy.md)
+* [Python example Using Numba](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/E_GPU_Compilation/Python_example_Using_Numba.md)
 * [Compilation C++ using CUDA Compiler](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/E_GPU_Compilation/Compilation_C++_using_CUDA_Compiler.md)
 #### `Commands of a GPU code`
 * [Single-GPU code in a batch job](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/F_Commands_of_a_GPU_code/Single-GPU_code_in_a_batch_job.md)
