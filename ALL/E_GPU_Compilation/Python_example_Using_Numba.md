@@ -6,7 +6,8 @@
     3. [Run the code on interactive mode](#6)
 
 ## Description <a name="1"></a>
-CUDA is a parallel computing platform and application programming interface that allows software to use certain types of graphics processing unit for general purpose processing – an approach called general-purpose computing on GPUs.
+Numba translates Python functions to optimized machine code at runtime using the industry-standard LLVM compiler library. Numba-compiled numerical algorithms in Python can approach the speeds of C or FORTRAN.
+With support for both NVIDIA's CUDA and AMD's ROCm drivers, Numba lets you write parallel GPU algorithms entirely from Python.
 
 ## Python example using `numba` <a name="3"></a>
 
@@ -15,6 +16,10 @@ CUDA is a parallel computing platform and application programming interface that
 - You first need to load Python version:
 ```sh
 $ module load Python/3.8.6-GCCcore-10.2.0
+```
+- load CUDA Module:
+```sh
+$ module load CUDA/11.1.1-GCC-10.2.0
 ```
 - Now you can install numba using `pip` command:
 ```sh
@@ -75,7 +80,8 @@ $ srun -p gpu --gres=gpu:1 --mem=8g --constraint=V100 --pty bash
 
 ```sh
 [<login>@node08 ~]$ module load Python/3.8.6-GCCcore-10.2.0
-[<login>@node08 ~]$ python cuda_example.py
+[<login>@node08 ~]$ module load CUDA/11.1.1-GCC-10.2.0
+[<login>@node08 ~]$ python numba_example.py
 
 without GPU: 2.9776507169008255
 with GPU: 0.6109951017424464
