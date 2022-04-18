@@ -13,6 +13,7 @@
 * [Simulation Softwares](#simulation-softwares)
 * [Atomistic simulation](#atomistic-simulation)
 * [Visualisation](#visualisation)
+* [Performance analysis and optimisation](#performance-analysis-and-optimisation)
 
 
 ## Tutorials
@@ -84,3 +85,6 @@
 #### `Visualisation`
 * [ParaView](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/L_Visualisation/ParaView.md)
 * [VTK](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/L_Visualisation/VTK.md)
+#### `Performance analysis and optimisation`
+* [VTune](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/M_Performance_analysis_and_optimisation/VTune.md)
+* [Valgrind](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/M_Performance_analysis_and_optimisation/Valgrind.md)
