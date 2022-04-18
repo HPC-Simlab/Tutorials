@@ -1,5 +1,3 @@
-# Tutorials
-
 ## Tables of Contents
 
 * [General information](#general-information)
@@ -15,6 +13,9 @@
 * [Atomistic simulation](#atomistic-simulation)
 * [Visualisation](#visualisation)
 * [Performance analysis and optimisation](#performance-analysis-and-optimisation)
+
+## Tutorials
+
 #### `General information`
 * [Install Module Using EasyBuild](https://github.com/HPC-Simlab/Tutorials/tree/master/A_General_information/Install_Module_Using_EasyBuild.md)
 * [Basic Slurm commands](https://github.com/HPC-Simlab/Tutorials/tree/master/A_General_information/Basic_Slurm_commands.md)
@@ -40,7 +41,7 @@
 * [OpenMP parallel code in batch](https://github.com/HPC-Simlab/Tutorials/tree/master/D_Commands_of_a_CPU_code/OpenMP_parallel_code_in_batch.md)
 * [MPI parallel code in batch](https://github.com/HPC-Simlab/Tutorials/tree/master/D_Commands_of_a_CPU_code/MPI_parallel_code_in_batch.md)
 * [Sequential job in batch](https://github.com/HPC-Simlab/Tutorials/tree/master/D_Commands_of_a_CPU_code/Sequential_job_in_batch.md)
-* [Hybrid MPI-OpenMP code in batch](https://github.com/HPC-Simlab/Tutorials/tree/master/D_Commands_of_a_CPU_code/Hybrid_MPI-OpenMP_code_in batch.md)
+* [Hybrid MPI-OpenMP code in batch](https://github.com/HPC-Simlab/Tutorials/tree/master/D_Commands_of_a_CPU_code/Hybrid_MPI-OpenMP_code_in_batch.md)
 #### `GPU Compilation`
 * [Python example Using CUDA](https://github.com/HPC-Simlab/Tutorials/tree/master/E_GPU_Compilation/Python_example_Using_CUDA.md)
 * [Compilation C++ using CUDA Compiler](https://github.com/HPC-Simlab/Tutorials/tree/master/E_GPU_Compilation/Compilation_C++_using_CUDA_Compiler.md)
