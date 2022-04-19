@@ -36,17 +36,25 @@ You need to connect using `-X` option, otherwise matlab will be runned as comman
 ```sh
 $ ssh -X <login>@simlab-cluster.um6p.ma 
 ```
+***You can now load matlab if it's not loaded and run it on the frontend (It's not the recommanded way. Use the interactive or batch mode).***
 
 ### Run on interactive mode <a name="4"></a>
+- Matlab does not work on these nodes: node01, node02, node08, node15. Then you need to exclude them using `--exclude` option:
 ```sh
-$ srun -p shortq -n 10 -t1:00:00 --pty bash -i
+$ salloc -p shortq  -t1:00:00 --exclude=node01,node02,node08,node15 --exclusive -N 1 -n 1 
+$ ssh -CY $SLURM_NODELIST
 ```
+***You can now load matlab if it's not loaded and run it on the reserved node (**Be careful, if you session is broken the job will be killed**)***
+
+**The best way to run matlab is to use the batch mode**
 
 ### Run on batch mode <a name="5"></a>
 ```sh
 $ cat matlab_job.slurm
 
 #!/bin/bash
+
+#SBATCH --partition=shortq
 #SBATCH --ntasks=1
 #SBATCH --mem-per-cpu=2GB
 #SBATCH --time=1:00:00
@@ -54,7 +62,7 @@ $ cat matlab_job.slurm
 module purge
 module load matlab
 
-matlab -nodisplay -r hello
+matlab -nodisplay -r hello # The script name without .m
 ```
 - Run the job:
 
