@@ -41,7 +41,7 @@ $ ssh -X <login>@simlab-cluster.um6p.ma
 ### Run Matlab with the graphical mode on interactive mode <a name="4"></a>
 - Matlab does not work on these nodes: node01, node02, node08, node15. Then you need to exclude them using `--exclude` option:
 ```sh
-$ salloc -p shortq  -t1:00:00 --exclude=node01,node02,node08,node15 --exclusive -N 1 -n 1 
+$ salloc -p shortq  -t1:00:00 --exclude=node01,node02,node08,node15 -N 1 -n 1 
 $ ssh -CY $SLURM_NODELIST
 ```
 ***You can now load matlab if it's not loaded and run it on the reserved node (**Be careful, if you session is broken the job will be killed**)***
