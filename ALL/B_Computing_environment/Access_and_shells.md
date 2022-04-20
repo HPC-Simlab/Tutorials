@@ -19,7 +19,8 @@ Connecting directly to the cluster frontends is restricted to networks within th
 $ ssh -CY <login>@simlab-cluster.um6p.ma
 ```
 
-for windows users you can use the command-line, or graphical interface third-party clients like [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/) and [mobaxterm](https://mobaxterm.mobatek.net).
+- For windows users you can use the command-line, or graphical interface third-party clients like [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/) and [mobaxterm](https://mobaxterm.mobatek.net)(recommended).
+- To configure mobaxterm follow this [tuto](https://www.youtube.com/watch?v=s7xNGyG9GVc).
 
 ### Copy data to the remote host <a name="copytoremote"></a>
  For simple file transfers using a command line interface you can use [scp](https://en.wikipedia.org/wiki/Secure_copy_protocol):  
