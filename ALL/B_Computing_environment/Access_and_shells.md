@@ -41,7 +41,7 @@ When running Windows, you can also use [WinSCP](https://winscp.net/eng/index.php
 
 ### SSH key authentification <a name="sshkey"></a>
 
-SSH key authentification is allowed on SIMLAB. You have to generate a pair of keys following [SIMLAB recommendations](ssh-recommandation.md) and type:
+SSH key authentification is allowed on SIMLAB. You have to generate a pair of keys following [SIMLAB recommendations](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/B_Computing_environment/ssh_recommandation.md) and type:
 ```sh
 $ ssh-copy-id <login>@simlab-cluster.um6p.ma
 ```
