@@ -17,4 +17,4 @@ Retapez le nouveau mot de passe :
 
 ### Forgotten password <a name="forgotpass"></a>
 
-In this case, you must reset your password on the simlab website (https://toto.um6p.ma) to request the re-generation of the randomly generated password which is then sent to you by e-mail. 
+In this case, you must reset your password on the simlab website (in progress) to request the re-generation of the randomly generated password which is then sent to you by e-mail. 
