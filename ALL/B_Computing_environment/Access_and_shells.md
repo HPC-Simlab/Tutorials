@@ -19,7 +19,8 @@ Connecting directly to the cluster frontends is restricted to networks within th
 $ ssh -CY <login>@simlab-cluster.um6p.ma
 ```
 
-for windows users you can use the command-line, or graphical interface third-party clients like [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/) and [mobaxterm](https://mobaxterm.mobatek.net).
+- For windows users you can use the command-line, or graphical interface third-party clients like [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/) and [mobaxterm](https://mobaxterm.mobatek.net)(recommended).
+- To configure mobaxterm follow this [tuto](https://www.youtube.com/watch?v=s7xNGyG9GVc).
 
 ### Copy data to the remote host <a name="copytoremote"></a>
  For simple file transfers using a command line interface you can use [scp](https://en.wikipedia.org/wiki/Secure_copy_protocol):  
@@ -40,7 +41,7 @@ When running Windows, you can also use [WinSCP](https://winscp.net/eng/index.php
 
 ### SSH key authentification <a name="sshkey"></a>
 
-SSH key authentification is allowed on SIMLAB. You have to generate a pair of keys following [SIMLAB recommendations](ssh-recommandation.md) and type:
+SSH key authentification is allowed on SIMLAB. You have to generate a pair of keys following [ssh recommendations](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/B_Computing_environment/ssh_recommandation.md) and type:
 ```sh
 $ ssh-copy-id <login>@simlab-cluster.um6p.ma
 ```
