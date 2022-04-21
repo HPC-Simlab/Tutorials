@@ -41,6 +41,7 @@
 * [MPI parallel code](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/C_CPU_compilation/MPI_parallel_code.md)
 * [HYBRID parallel code](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/C_CPU_compilation/HYBRID_parallel_code.md)
 #### `Commands of a CPU code`
+* [Interactive execution](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/D_Commands_of_a_CPU_code/Interactive_execution.md)
 * [Hybrid MPI-OpenMP code in batch](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/D_Commands_of_a_CPU_code/Hybrid_MPI-OpenMP_code_in_batch.md)
 * [MPI parallel code in batch](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/D_Commands_of_a_CPU_code/MPI_parallel_code_in_batch.md)
 * [Sequential job in batch](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/D_Commands_of_a_CPU_code/Sequential_job_in_batch.md)
@@ -50,6 +51,7 @@
 * [Python example Using Numba](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/E_GPU_Compilation/Python_example_Using_Numba.md)
 * [Compilation C++ using CUDA Compiler](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/E_GPU_Compilation/Compilation_C++_using_CUDA_Compiler.md)
 #### `Commands of a GPU code`
+* [Interactive execution](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/F_Commands_of_a_GPU_cod/Interactive_execution.md)
 * [Single-GPU code in a batch job](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/F_Commands_of_a_GPU_code/Single-GPU_code_in_a_batch_job.md)
 #### `Software libraries`
 * [R](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/G_Software_libraries/R.md)
