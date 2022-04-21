@@ -1,8 +1,5 @@
 # Table of Contents
 1. [Simlab partitions](#1)
-2. [SLURM Concepts](#2)
-3. [SLURM useful commands](#3)
-4. [SLURM partitions and nodes](#4)
 
 ## Simlab partitions <a name="1"></a>
 
