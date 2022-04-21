@@ -1,9 +1,7 @@
 # Table of Contents
 1. [Simlab partitions](#1)
 
-## Simlab partitions <a name="1"></a>
-
-***The partitions available***
+## The available partitions  <a name="1"></a>
 
 - `defq`: partition is automatically used if no partition is specified by all jobs. The execution time by default is 4 hours.
 - `shortq`: partition used for short jobs (max. 12 hours), with max of two nodes per job (88 cores max.)
