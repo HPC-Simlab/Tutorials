@@ -1,17 +1,3 @@
-<h1 align="center" style="color:#8A2BE2"> Welcome to the SIMLAB Platform ! </h1>
-
-The SIMLAB is a supercomputer converged platform acquired by UM6P and aimed at providing HPC services to the research community in Morocco and the African continent. The supercomputer is maintained by MSDA entity, and is open to all researchers, engineers, PhD. students, and Moroccan/African companies.
-
-<h2 align="center" style="color:#8A2BE2"> Hardware description </h2>
-
-
-<p align="center">
-<img src="data/hardware.png" width="500" alt="SIMLAB" style="display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;">
-</p>
-
 # Table of Contents
 1. [Connect to Simlab using ssh](#Basic)
 2. [Change your password](#password)
