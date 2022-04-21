@@ -45,6 +45,7 @@ The SIMLAB is a supercomputer converged platform acquired by UM6P and aimed at p
 * [ssh recommandation](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/B_Computing_environment/ssh_recommandation.md)
 * [Containers Usage of Singularity](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/B_Computing_environment/Containers_Usage_of_Singularity.md)
 * [The module command](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/B_Computing_environment/The_module_command.md)
+* [Partitions](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/B_Computing_environment/Partitions.md)
 #### `CPU compilation`
 * [Compilation Fortran C using GNU Compiler](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/C_CPU_compilation/Compilation_Fortran_C_using_GNU_Compiler.md)
 * [Calling Fortran functions from C](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/C_CPU_compilation/Calling_Fortran_functions_from_C.md)
