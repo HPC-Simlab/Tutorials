@@ -51,7 +51,7 @@
 * [Python example Using Numba](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/E_GPU_Compilation/Python_example_Using_Numba.md)
 * [Compilation C++ using CUDA Compiler](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/E_GPU_Compilation/Compilation_C++_using_CUDA_Compiler.md)
 #### `Commands of a GPU code`
-* [Interactive execution](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/F_Commands_of_a_GPU_cod/Interactive_execution.md)
+* [Interactive execution](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/F_Commands_of_a_GPU_code/Interactive_execution.md)
 * [Single-GPU code in a batch job](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/F_Commands_of_a_GPU_code/Single-GPU_code_in_a_batch_job.md)
 #### `Software libraries`
 * [R](https://github.com/HPC-Simlab/Tutorials/tree/master/ALL/G_Software_libraries/R.md)
