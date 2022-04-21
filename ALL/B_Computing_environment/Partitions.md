@@ -29,3 +29,9 @@
 - You can reserve a job using `special` partition with max of 15 nodes (652 cores)
 - ...
 
+**To see example for jobs reservation on CPU compute nodes, you to use `batch mode` (see the documentation of [Sequential job in batch](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/D_Commands_of_a_CPU_code/Sequential_job_in_batch.md)).**
+
+**To see example for jobs reservation on GPU compute nodes, you to use `batch mode` (see the documentation of [Single-GPU code in a batch job](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/F_Commands_of_a_GPU_code/Single-GPU_code_in_a_batch_job.md)).**
+
+
+
