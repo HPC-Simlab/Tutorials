@@ -1,6 +1,5 @@
 # Table of Contents
 1. [How to change your actual password](#changepass)
-2. [Forgotten password](#forgotpass)
 
 
 ### How to change your actual password <a name="changepass"></a>
@@ -17,4 +16,4 @@ Retapez le nouveau mot de passe :
 
 ### Forgotten password <a name="forgotpass"></a>
 
-In this case, you must reset your password on the simlab website (in progress) to request the re-generation of the randomly generated password which is then sent to you by e-mail. 
+In this case, send an email to hpc-redmine@um6p.ma.
