@@ -11,7 +11,7 @@
 6. [Step 5: Advanced use](#advanced)
 
 ### Step 0: Connect to Simlab using ssh <a name="Basic"></a>
-Connecting directly to the cluster frontends is restricted to networks within the university. So being connected to the university network is needed, or using a VPN, then you can connect via this command: 
+- Connecting directly to the cluster frontends is restricted to networks within the university. So being connected to the university network is needed, or using a VPN, then you can connect via this command:
 
 ```sh
 $ ssh -CY <login>@simlab-cluster.um6p.ma
@@ -20,8 +20,7 @@ $ ssh -CY <login>@simlab-cluster.um6p.ma
 - For windows users you can use the command-line, or graphical interface third-party clients like [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/) and [mobaxterm](https://mobaxterm.mobatek.net)(recommended).
 - To configure mobaxterm follow this [tuto](https://www.youtube.com/watch?v=s7xNGyG9GVc).
 
-
-**For more detail see the [Access and shells](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/B_Computing_environment/Access_and_shells.md) documentation.**
+**For more detail see the [Access and shells](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/B_Computing_environment/Access_and_shells.md) documentation.**  
 
 ### Step 1: Change your password <a name="password"></a>
 
