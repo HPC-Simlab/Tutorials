@@ -4,7 +4,7 @@
 1. [Step 0: Connect to Simlab using ssh](#Basic)
 2. [Step 1: Change your password](#password)
 3. [Step 2: Load module in Simlab](#load)
-4. [Step 3: Partitions](#partitions)
+4. [Step 3: The available partitions](#partitions)
 5. [Step 4: Run example using interactive mode](#interactive)
     1. [Run example on CPU node using iteractive mode](#interactivecpu)
     2. [Run example on GPU node using iteractive mode](#interactivegpu)
