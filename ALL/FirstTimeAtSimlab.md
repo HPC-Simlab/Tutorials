@@ -74,7 +74,7 @@ $ module load GCC
 #### Run example on CPU node using iteractive mode <a name="interactivecpu"></a>
 
 ```sh
-$ srun --pty --ntasks=1 --cpus-per-task=4 bash
+$ srun --pty --partition=shortq --ntasks=1 --cpus-per-task=4 bash
 [team1337@node14 ~]$ ./cpu_exe
 ```
 **For more detail see the [Interactive execution](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/D_Commands_of_a_CPU_code/Interactive_execution.md) documentation.**
@@ -86,8 +86,12 @@ You can verify that your reservation is active by using the `squeue` command. fo
 ```sh
 $ squeue -u team1337
              JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
-             32329      defq     bash team1337  R       0:05      1 node14
+             32329    shortq     bash team1337  R       0:05      1 node14
 ```
+- Jobid: 32329
+- Partition: `shortq` choosed using the command `--partition=shortq`
+- Node lists: `node14` is choosed by slurm to run the job
+
 - To learn more about managing jobs and slurm commands, you can see the [Basic slurm commands](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/A_General_information/Basic_Slurm_commands.md) or the [Advanced slurm commands](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/A_General_information/Advanced_slurm-commands.md).
 
 
@@ -109,6 +113,10 @@ $ squeue -u team1337
              JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
              32340       gpu     bash team1337  R       0:02      1 node09
 ```
+- Jobid: 32340
+- Partition: `gpu` choosed using the command `--partition=gpu`
+- Node lists: `node09` is choosed by slurm to run the job
+
 - To learn more about managing jobs and slurm commands, you can see the [Basic slurm commands](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/A_General_information/Basic_Slurm_commands.md) or the [Advanced slurm commands](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/A_General_information/Advanced_slurm-commands.md)
 
 ### Step 5: Advanced use <a name="advanced"></a>
