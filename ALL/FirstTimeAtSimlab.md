@@ -97,7 +97,10 @@ $ srun --pty --partition=shortq --ntasks=1 --cpus-per-task=4 bash
 
 
 You can verify that your reservation is active by using the `squeue` command. For more details you can see the [Basic slurm commands](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/A_General_information/Basic_Slurm_commands.md) or the [Advanced slurm commands](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/A_General_information/Advanced_slurm-commands.md).
-
+```sh
+$ squeue -u <login>
+```
+Example:
 ```sh
 $ squeue -u team1337
              JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
@@ -121,6 +124,10 @@ srun --pty --partition=gpu --nodes=1  --gres=gpu:1 bash
 
 You can verify that your reservation is active by using the `squeue` command. For more details you can see the [Basic slurm commands](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/A_General_information/Basic_Slurm_commands.md) or the [Advanced slurm commands](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/A_General_information/Advanced_slurm-commands.md).
 
+```sh
+$ squeue -u <login>
+```
+Example:
 ```sh
 $ squeue -u team1337
              JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
