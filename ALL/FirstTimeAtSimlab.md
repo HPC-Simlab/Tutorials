@@ -25,7 +25,8 @@ $ ssh -CY <login>@simlab-cluster.um6p.ma
 
 ### Step 1: Change your password <a name="password"></a>
 
-You can change your password at any time by using the UNIX command `passwd` directly on front end. The change is taken into account immediately. 
+**After your first connection it's mandatory to change your password.**
+- You can change your password at any time by using the UNIX command `passwd` directly on front end. The change is taken into account immediately. 
 
 ```sh
 $ passwd
@@ -34,9 +35,25 @@ Changement de mot de passe pour l'utilisateur $USER.
 Nouveau mot de passe : 
 Retapez le nouveau mot de passe : 
 ```
-**In the case you forget you password, send an email to hpc-redmine@um6p.ma.**
+**In the case you forget your password, send an email to hpc-redmine@um6p.ma.**
 
 ### Step 2: Load module in Simlab <a name="load"></a>
+
+- List all modules:
+
+```sh
+$ module avail
+----------------------------------------- /cm/local/modulefiles -----------------------------------------
+cluster-tools-dell/8.1  dot             intel/mic/sdk/3.8.4  module-git   openldap                      
+cluster-tools/8.1       freeipmi/1.5.7  ipmitool/1.8.18      module-info  openmpi/mlnx/gcc/64/3.1.1rc1  
+cmd                     gcc/7.2.0       lua/5.3.4            null         shared                        
+
+---------------------------------------- /cm/shared/modulefiles -----------------------------------------
+ABINIT/8.10.1                           libpng/1.6.37-GCCcore-9.3.0                     
+ABINIT/9.4.1-foss-2020b                 libpng12/gcc/1.2.56                             
+abinit/gcc/64/8.10.1                    libreadline/8.0-GCCcore-8.3.0     
+[...]
+```
 - Load GCC module 
 
 ```bash
