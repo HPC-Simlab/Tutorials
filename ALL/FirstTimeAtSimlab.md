@@ -90,7 +90,7 @@ $ squeue -u team1337
 ```
 - Jobid: 32329
 - Partition: `shortq` choosed using the command `--partition=shortq`
-- Node lists: `node14` is choosed by slurm to run the job
+- Node lists: `node14` is chosen by slurm to run the job
 
 - To learn more about managing jobs and slurm commands, you can see the [Basic slurm commands](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/A_General_information/Basic_Slurm_commands.md) or the [Advanced slurm commands](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/A_General_information/Advanced_slurm-commands.md).
 
@@ -115,7 +115,7 @@ $ squeue -u team1337
 ```
 - Jobid: 32340
 - Partition: `gpu` choosed using the command `--partition=gpu`
-- Node lists: `node09` is choosed by slurm to run the job
+- Node lists: `node09` is chosen by slurm to run the job
 
 - To learn more about managing jobs and slurm commands, you can see the [Basic slurm commands](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/A_General_information/Basic_Slurm_commands.md) or the [Advanced slurm commands](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/A_General_information/Advanced_slurm-commands.md)
 
