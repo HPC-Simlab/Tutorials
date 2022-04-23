@@ -84,7 +84,6 @@ $ module load GCC
 - You can reserve a job using `gpu` partition with max of two nodes (88 cores)
 - You can reserve a job using `special` partition with max of 15 nodes (652 cores)
 - ...
-- 
 
 ### Step 4: Run example using interactive mode <a name="interactive"></a>
 
@@ -94,11 +93,10 @@ $ module load GCC
 $ srun --pty --partition=shortq --ntasks=1 --cpus-per-task=4 bash
 [team1337@node14 ~]$ ./cpu_exe
 ```
-**For more detail see the [Interactive execution](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/D_Commands_of_a_CPU_code/Interactive_execution.md) documentation.**
-***- This is not recommended because if your session is exited your job will be automatically killed, we recommend you to use `batch mode` (see the documentation of [Sequential job in batch](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/D_Commands_of_a_CPU_code/Sequential_job_in_batch.md)).***
+**For more detail see the [Interactive execution](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/D_Commands_of_a_CPU_code/Interactive_execution.md) documentation. But, this is not recommended because if your session is exited your job will be automatically killed, we recommend you to use `batch mode` (see the documentation of [Sequential job in batch](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/D_Commands_of_a_CPU_code/Sequential_job_in_batch.md)).**
 
 
-You can verify that your reservation is active by using the `squeue` command. for more details you can see the [Basic slurm commands](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/A_General_information/Basic_Slurm_commands.md) or the [Advanced slurm commands](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/A_General_information/Advanced_slurm-commands.md).
+You can verify that your reservation is active by using the `squeue` command. For more details you can see the [Basic slurm commands](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/A_General_information/Basic_Slurm_commands.md) or the [Advanced slurm commands](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/A_General_information/Advanced_slurm-commands.md).
 
 ```sh
 $ squeue -u team1337
@@ -118,12 +116,10 @@ $ squeue -u team1337
 srun --pty --partition=gpu --nodes=1  --gres=gpu:1 bash
 [team1337@node14 ~]$ ./gpu_exe
 ```
-**For more detail see the [Interactive execution](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/F_Commands_of_a_GPU_code/Interactive_execution.md) documentation.**
-
-***- This is not recommended because if your session is exited your job will be automatically killed, we recommend you to use `batch mode` (see the documentation of [Single-GPU code in a batch job](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/F_Commands_of_a_GPU_code/Single-GPU_code_in_a_batch_job.md)).***
+**For more detail see the [Interactive execution](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/F_Commands_of_a_GPU_code/Interactive_execution.md) documentation. But, this is not recommended because if your session is exited your job will be automatically killed, we recommend you to use `batch mode` (see the documentation of [Single-GPU code in a batch job](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/F_Commands_of_a_GPU_code/Single-GPU_code_in_a_batch_job.md)).**
 
 
-You can verify that your reservation is active by using the `squeue` command. for more details you can see the [Basic slurm commands](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/A_General_information/Basic_Slurm_commands.md) or the [Advanced slurm commands](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/A_General_information/Advanced_slurm-commands.md).
+You can verify that your reservation is active by using the `squeue` command. For more details you can see the [Basic slurm commands](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/A_General_information/Basic_Slurm_commands.md) or the [Advanced slurm commands](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/A_General_information/Advanced_slurm-commands.md).
 
 ```sh
 $ squeue -u team1337
