@@ -60,7 +60,7 @@ abinit/gcc/64/8.10.1                    libreadline/8.0-GCCcore-8.3.0
 $ module purge
 $ module load GCC
 ```
-**For more detail see the [The module commands](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/B_Computing_environment/The_module_command.md) documentation.**
+**For more detail see the [module commands](https://github.com/HPC-Simlab/Tutorials/blob/master/ALL/B_Computing_environment/The_module_command.md) documentation.**
 
 ### Step 3: The available partitions  <a name="partitions"></a>
 
