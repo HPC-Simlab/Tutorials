@@ -1,18 +1,16 @@
 # Table of Contents
 1. [Description](#1)
 2. [MUMPS on SIMLAB](#2)
-3. [Examples](#3)
-   1. [C example](#4)
-      1. [Linking phase](#5)
-   3. [MUMPS using pymumps](#6)
-      1. [Installing pymumps](#7)
-      2. [Python example](#8)
+3. [Linking phase](#3)
+4. [MUMPS using pymumps](#6)
+   1. [Installing pymumps](#7)
+   2. [Python example](#8)
 
-## Description <a name="1"></a>
+### Description <a name="1"></a>
 
 MUMPS (MUltifrontal Massively Parallel sparse direct Solver) is a software application for the solution of large sparse systems of linear algebraic equations on distributed memory parallel computers. see more in [wikipedia](https://en.wikipedia.org/wiki/MUMPS_(software)) and MUMPS [docs](http://mumps.enseeiht.fr/index.php?page=doc).
 
-## MUMPS on SIMLAB <a name="2"></a>
+### MUMPS on SIMLAB <a name="2"></a>
 
 - Check available versions:
 
@@ -44,13 +42,7 @@ Currently Loaded Modulefiles:
 11) UCX/1.8.0-GCCcore-9.3.0          22) MUMPS/5.2.1-foss-2020a-metis    
 ```
 
-### Examples <a name="3"></a>
-
-### C example <a name="4"></a>
-
-C example is available [mumps_example.c](https://github.com/HPC-Simlab/Website-utilities/blob/master/TESTS_LIBRARIES/tests_mumps)
-
-#### Linking phase <a name="5"></a>
+### Linking phase <a name="3"></a>
 
 The linking phase During the compilation, it is necessary to add the `-ldmumps` option.
  
@@ -64,7 +56,7 @@ $ mpicc mumps_example.c -o mumps_example -ldmumps
 $ mpirun -n 2 ./mumps_example
 ```
  
-## Python example <a name="6"></a>
+### Python example <a name="6"></a>
 
 #### Install pymumps <a name="7"></a>
  
