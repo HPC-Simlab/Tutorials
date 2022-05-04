@@ -41,7 +41,7 @@ $ runwb2
 
 ### Iterative mode <a name="4"></a>
 
-- Run `fluent` and create/change the geometry:
+- Run `fluent` and create/change the geometry (double check if you are connected to the visu partition):
 ```sh
 $ fluent
 ```
