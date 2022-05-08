@@ -32,8 +32,32 @@ Currently Loaded Modulefiles:
 ```
 
 ## The linking phase <a name="3"></a>
-During the compilation, it is necessary to add the `-lopenblas` option: 
+- Let's try a simple level-1 routine e.g. `dscal` (Multiplies each element of a vector `x` by a constant (double-precision)`alpha`.)
+refer to the [Blas documentation](https://www.netlib.org/blas/index.html)
+for more information:
+```c
+#include <stdio.h>
+#include "cblas.h"
 
+int main(int argc, char **argv) {
+  double x[3] = {1.0, 2.0, 3.0};
+  double alpha = 2.0;
+
+  printf("Pre dscal\t: %g %g %g\n", x[0], x[1], x[2]);
+
+  cblas_dscal(3, alpha, x, 1);
+
+  printf("Post dscal\t: %g %g %g\n", x[0], x[1], x[2]);
+  return 0;
+}
+```
+- To compile our example, it is necessary to add the `-lopenblas` option:
 ```bash
 $ gcc example.c -lopenblas
+```
+- You can run the executable to see the result:
+```bash
+$ ./a.out
+Pre dscal       : 1 2 3
+Post dscal      : 2 4 6
 ```
