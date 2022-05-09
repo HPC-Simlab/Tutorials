@@ -23,13 +23,6 @@ $ module avail ansys
 ansys/2020.r1  ansys/2021.r1  ansys/v201   
 ```
 
-- For workbench usage under visualization node:
-
-```sh
-$ module load visualization/visTurboVNC
-$ runTurboVNC.sh
-```
-
 - Now you can load `ansys/2020.r1` and run `runwb2` command to open Ansys:
 
 ```sh
