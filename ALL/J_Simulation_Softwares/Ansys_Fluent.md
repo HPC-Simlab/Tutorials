@@ -61,7 +61,7 @@ $ fluent
 $ cat fluent-srun.sh
 
 #!/bin/bash
-fluent 3ddp -g -t${SLURM_NTASKS} -ssh -i test.jou -mpi=intel 
+fluent 3ddp -g -t${SLURM_NTASKS} test.jou -mpi=intel 
 ```
 
 - Run the script file `fluent-srun.sh`:
