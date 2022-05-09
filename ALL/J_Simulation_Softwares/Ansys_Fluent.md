@@ -41,6 +41,23 @@ $ runwb2
 
 ### Iterative mode <a name="4"></a>
 
+- For workbench usage under visualization node:
+
+```sh
+$ module load visualization/visTurboVNC
+$ runTurboVNC.sh
+```
+
+- Connect to visualization node `visu01`:
+```sh
+$ ssh -CY visu01
+```
+
+- Now you can load `ansys/2020.r1` and run `runwb2` command to open Ansys:
+
+```sh
+$ module load ansys/2020.r1
+```
 - Run `fluent` and create/change the geometry:
 ```sh
 $ fluent
