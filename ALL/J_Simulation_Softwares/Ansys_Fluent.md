@@ -55,7 +55,7 @@ $ module load ansys/2020.r1
 ```sh
 $ fluent
 ```
-- Or run directlu the fluent test (create the file `fluent-srun.sh`):
+- Or run directly the fluent test (create the file `fluent-srun.sh`):
 
 ```sh
 $ cat fluent-srun.sh
