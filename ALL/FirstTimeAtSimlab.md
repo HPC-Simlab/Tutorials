@@ -89,6 +89,7 @@ $ module load GCC
 #### Run example on CPU node using iteractive mode <a name="interactivecpu"></a>
 
 ```sh
+$ module load slurm
 $ srun --pty --partition=shortq --ntasks=1 --cpus-per-task=4 bash
 [team1337@node14 ~]$ ./cpu_exe
 ```
