@@ -40,40 +40,50 @@ Summary: compiling Python code using LLVM
 ```sh
 $ cat cuda_example.py
 
-from numba import jit, cuda
+from numba import cuda
 
 import numpy as np
 from timeit import default_timer as timer
 
-# To run on CPU
-def func(a):
-    for i in range(10000000):
-        a[i]+= 1# To run on GPU
-
-@jit
-def func2(x):
-
-    return x+1
+@cuda.jit
+def increment_by_one(an_array):
+    # Thread id in a 1D block
+    tx = cuda.threadIdx.x
+    # Block id in a 1D grid
+    ty = cuda.blockIdx.x
+    # Block width, i.e. number of threads per block
+    bw = cuda.blockDim.x
+    gd = cuda.gridDim.x
+    # Compute flattened index inside the array
+    index = tx + ty * bw
+    stride = gd * bw
+    if index < an_array.size:  # Check array boundaries
+        for i in range(index, an_array.size, stride):
+            an_array[i] = (an_array[i]/12)%3
 
 if __name__=="__main__":
     n = 10000000
 
-    a = np.ones(n, dtype = np.float64)    
+    a = np.random.rand(n)
+    b = np.array(a)
+
     start = timer()
-    func(a)
-    print("without GPU:", timer()-start)    
-    
+    increment_by_one[160, 32](a)
+    print("without GPU:", timer()-start)
+
     start = timer()
-    func2(a)
-    cuda.profile_stop()
-    print("with GPU:", timer()-start)
+    for i in range(n):
+        b[i] = (b[i]/12)%3
+    print("without GPU:", timer()-start)
+
+    print("result check: ", np.allclose(a, b))
 ```
 
 ### Run the code on interactive mode <a name="6"></a>
 
 - You first need to be on GPU node: ***slurm module must be loaded to run this command***
 ```sh
-$ srun -p gpu --gres=gpu:1 --mem=8g --constraint=V100 --pty bash
+$ srun -p gpu --gres=gpu:1 --mem=8g --pty bash
 ```
 
 - Run the example:
