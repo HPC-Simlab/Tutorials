@@ -26,16 +26,16 @@ $ pip install cupy-cuda111
 ```
 - Check the installed version:
 ```sh
-$ pip show Cupy
+$ pip show cupy-cuda111
 Name: cupy-cuda111
-Version: 10.1.0
+Version: 10.5.0
 Summary: CuPy: NumPy & SciPy for GPU
 Home-page: https://cupy.dev/
 Author: Seiya Tokui
 Author-email: tokui@preferred.jp
 License: MIT License
-Location: /home/melalj/.local/lib/python3.8/site-packages
-
+Requires: fastrlock, numpy
+Required-by: 
 ```
 
 ### Cupy_example.py example <a name="5"></a>
@@ -71,7 +71,7 @@ print("with GPU:", timer()-start)
 
 - You first need to be on GPU node: ***slurm module must be loaded to run this command***
 ```sh
-$ srun -p gpu --gres=gpu:1 --mem=8g --constraint=V100 --pty bash
+$ srun -p gpu --gres=gpu:1 --mem=8g --pty bash
 ```
 
 - Run the example:
