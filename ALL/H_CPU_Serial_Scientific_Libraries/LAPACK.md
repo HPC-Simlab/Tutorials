@@ -34,3 +34,5 @@ During the compilation, it is necessary to add the `-llapack` option:
 ```sh
 $ gcc example.c -llapack
 ```
+please check the example below that is tested on simlab
+https://gist.githubusercontent.com/erikzenker/c4dc42c8d5a8c1cd3e5a/raw/191a60f740b25d8639ce243c9821d760aaad6731/metis.cc
