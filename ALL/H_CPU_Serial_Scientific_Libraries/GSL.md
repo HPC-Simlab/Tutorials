@@ -28,3 +28,5 @@ Currently Loaded Modulefiles:
  2) zlib/1.2.11-GCCcore-9.3.0     5) GSL/2.6-GCC-9.3.0  
  3) binutils/2.34-GCCcore-9.3.0  
 ```
+
+please check the hello world example for GSL at https://jinshengye.wordpress.com/2013/02/01/the-hello-world-of-gnu-gsl/
