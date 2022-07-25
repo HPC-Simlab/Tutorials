@@ -63,7 +63,7 @@ $ mpirun -n 2 ./mumps_example
 - Load Python:
 
 ```sh
-module load Python/3.8.2-GCCcore-9.3.0
+module load MUMPS Python/3.8.2-GCCcore-9.3.0
 ```
 - Install pymumps using `pip` command:
 
